@@ -1,0 +1,57 @@
+core_universe:
+  - SPY
+  - QQQ
+  - META
+  - AMZN
+  - MU
+  - ORCL
+  - SOFI
+  - IAU
+
+factor_adjacency:
+  energy:
+    - XLE
+    - XOP
+    - USO
+  semis_ai:
+    - SMH
+    - SOXX
+  high_beta:
+    - IWM
+    - ARKK
+    - HIBL
+  rates:
+    - TLT
+    - TBF
+    - TBT
+  dollar:
+    - UUP
+  equity_hedges:
+    - SH
+    - PSQ
+    - SQQQ
+  housing_rates:
+    - XHB
+    - ITB
+  defensives:
+    - XLP
+    - XLU
+
+macro_proxies:
+  volatility:
+    - ^VIX
+  ten_year_yield_proxy:
+    - ^TNX
+  crude_oil:
+    - CL=F
+  gold:
+    - GC=F
+  dollar_index:
+    - DX-Y.NYB
+
+settings:
+  history_period: "18mo"
+  minimum_history_days: 220
+  report_timezone: "Asia/Kuala_Lumpur"
+  benchmark_primary: "SPY"
+  benchmark_growth: "QQQ"
