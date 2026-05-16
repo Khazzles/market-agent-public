@@ -1,0 +1,77 @@
+{
+  "run_timestamp_local": "2026-05-16T17:30:22.122925+08:00",
+  "run_date_local": "2026-05-16",
+  "timezone": "Asia/Kuala_Lumpur",
+  "objective": "Public market research packet only; no portfolio sizes, holdings, cost basis, or private notes.",
+  "core_universe": [
+    "SPY",
+    "QQQ",
+    "META",
+    "AMZN",
+    "MU",
+    "ORCL",
+    "SOFI",
+    "IAU"
+  ],
+  "factor_adjacency": {
+    "energy": [
+      "XLE",
+      "XOP",
+      "USO"
+    ],
+    "semis_ai": [
+      "SMH",
+      "SOXX"
+    ],
+    "high_beta": [
+      "IWM",
+      "ARKK",
+      "HIBL"
+    ],
+    "rates": [
+      "TLT",
+      "TBF",
+      "TBT"
+    ],
+    "dollar": [
+      "UUP"
+    ],
+    "equity_hedges": [
+      "SH",
+      "PSQ",
+      "SQQQ"
+    ],
+    "housing_rates": [
+      "XHB",
+      "ITB"
+    ],
+    "defensives": [
+      "XLP",
+      "XLU"
+    ]
+  },
+  "macro_proxies": {
+    "volatility": [
+      "^VIX"
+    ],
+    "ten_year_yield_proxy": [
+      "^TNX"
+    ],
+    "crude_oil": [
+      "CL=F"
+    ],
+    "gold": [
+      "GC=F"
+    ],
+    "dollar_index": [
+      "DX-Y.NYB"
+    ]
+  },
+  "data_source": "yfinance",
+  "limitations": [
+    "No OpenAI API or LLM analysis in GitHub workflow.",
+    "No private portfolio data by design.",
+    "News, filings, EPS revisions, and options data are not included in this MVP packet.",
+    "Scheduled GitHub Actions are suitable for research automation, not execution timing."
+  ]
+}
