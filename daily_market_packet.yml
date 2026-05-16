@@ -1,0 +1,44 @@
+name: Daily Market Packet
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 21:45 UTC Monday-Friday = 05:45 Malaysia/Singapore time Tuesday-Saturday.
+    # This is intended to run after the prior US market close.
+    - cron: "45 21 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  build-market-packet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build public market packet
+        run: python src/main.py
+
+      - name: Upload run artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: market-packet
+          path: docs/
+
+      - name: Commit generated packet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/latest docs/archive
+          git commit -m "Update market packet" || echo "No changes to commit"
+          git push
