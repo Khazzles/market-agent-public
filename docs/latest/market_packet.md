@@ -1,4 +1,4 @@
-# Market Packet — 2026-11-05T09:47:53.087306+08:00
+# Market Packet — 2026-11-06T09:47:51.589126+08:00
 
 ## Manifest
 
@@ -24,67 +24,67 @@ No missing ticker metrics detected in this run.
 
 | Ticker | As Of | Close | 1D % | 5D % | 21D % | vs SMA50 % | vs SMA200 % | RSI14 | ATR14 % | RS vs SPY 21D | RS vs QQQ 21D | Regime |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SPY | 2026-11-03 | 754.35 | 0.30 | -1.99 | -2.64 | -1.65 | 3.41 | 40.19 | 1.10 | 0.00 | 6.74 | BELOW_50_ABOVE_200 |
-| QQQ | 2026-11-03 | 685.28 | 0.62 | -4.99 | -9.38 | -5.34 | 0.76 | 34.60 | 1.90 | -6.74 | 0.00 | BELOW_50_ABOVE_200 |
-| META | 2026-11-03 | 621.03 | 2.36 | 0.14 | -16.29 | -7.63 | -1.74 | 36.99 | 3.60 | -13.65 | -6.91 | BELOW_50_AND_200 |
-| AMZN | 2026-11-03 | 250.69 | 2.06 | -0.95 | -0.28 | -1.22 | 2.95 | 48.66 | 3.42 | 2.36 | 9.10 | BELOW_50_ABOVE_200 |
-| MU | 2026-11-03 | 855.10 | 2.58 | -7.93 | -19.63 | -12.29 | 13.74 | 40.35 | 5.92 | -16.99 | -10.25 | BELOW_50_ABOVE_200 |
-| ORCL | 2026-11-03 | 126.19 | 5.85 | -3.32 | -11.43 | -10.46 | -19.26 | 44.18 | 6.36 | -8.79 | -2.05 | BELOW_50_AND_200 |
-| SOFI | 2026-11-03 | 16.77 | 1.02 | 2.26 | 5.34 | 1.63 | -5.20 | 56.78 | 4.66 | 7.98 | 14.72 | MIXED |
-| IAU | 2026-11-03 | 73.67 | -0.65 | -3.48 | -5.33 | -7.39 | -12.81 | 35.55 | 1.84 | -2.69 | 4.05 | BELOW_50_AND_200 |
+| SPY | 2026-11-04 | 766.81 | 1.65 | -0.71 | -1.58 | -0.03 | 5.05 | 50.70 | 1.38 | 0.00 | 7.34 | BELOW_50_ABOVE_200 |
+| QQQ | 2026-11-04 | 691.95 | 0.97 | -4.64 | -8.91 | -4.37 | 1.67 | 38.52 | 2.21 | -7.34 | 0.00 | BELOW_50_ABOVE_200 |
+| META | 2026-11-04 | 630.00 | 1.44 | 2.86 | -14.74 | -6.47 | -0.34 | 40.12 | 3.87 | -13.16 | -5.82 | BELOW_50_AND_200 |
+| AMZN | 2026-11-04 | 266.03 | 6.12 | 4.49 | 3.80 | 4.78 | 9.18 | 59.87 | 3.56 | 5.38 | 12.71 | ABOVE_50_AND_200 |
+| MU | 2026-11-04 | 795.23 | -7.00 | -19.12 | -23.94 | -18.20 | 5.48 | 35.38 | 7.29 | -22.37 | -15.03 | BELOW_50_ABOVE_200 |
+| ORCL | 2026-11-04 | 123.73 | -1.95 | -14.40 | -14.53 | -11.94 | -20.69 | 42.64 | 6.76 | -12.96 | -5.62 | BELOW_50_AND_200 |
+| SOFI | 2026-11-04 | 17.38 | 3.64 | 1.40 | 10.28 | 5.54 | -1.52 | 60.98 | 5.00 | 11.86 | 19.19 | MIXED |
+| IAU | 2026-11-04 | 76.37 | 3.67 | -0.26 | -2.55 | -3.72 | -9.54 | 47.84 | 1.77 | -0.98 | 6.36 | BELOW_50_AND_200 |
 
 
 ## Macro Proxy Evidence
 
 | Proxy | As Of | Close | 1D % | 5D % | 21D % | vs SMA50 % | Regime |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ^VIX | 2026-11-04 | 16.61 | -20.26 | -1.77 | 10.66 | 1.13 | MIXED |
-| ^TNX | 2026-11-04 | 4.89 | -1.17 | -2.99 | -7.12 | -2.63 | BELOW_50_ABOVE_200 |
-| CL=F | 2026-11-04 | 87.31 | -9.14 | -15.05 | -2.38 | -8.23 | BELOW_50_ABOVE_200 |
-| GC=F | 2026-11-04 | 4130.00 | 4.81 | 1.94 | -1.36 | -2.92 | BELOW_50_AND_200 |
-| DX-Y.NYB | 2026-11-04 | 101.33 | -0.53 | -0.85 | -0.49 | 0.34 | ABOVE_50_AND_200 |
+| ^VIX | 2026-11-05 | 28.18 | 69.66 | 63.84 | 86.87 | 68.76 | ABOVE_50_AND_200 |
+| ^TNX | 2026-11-05 | 4.84 | -1.16 | -3.05 | -8.34 | -3.83 | BELOW_50_ABOVE_200 |
+| CL=F | 2026-11-05 | 91.13 | 3.42 | -10.66 | 3.23 | -4.41 | BELOW_50_ABOVE_200 |
+| GC=F | 2026-11-05 | 4082.40 | 0.23 | 1.27 | -1.41 | -3.75 | BELOW_50_AND_200 |
+| DX-Y.NYB | 2026-11-05 | 101.62 | 0.11 | -0.41 | -0.60 | 0.59 | ABOVE_50_AND_200 |
 
 
 ## Factor Group Evidence
 
 | Group | Avg 1D % | Members |
 | --- | --- | --- |
-| energy | -0.36 | XLE, XOP, USO |
-| semis_ai | 2.26 | SMH, SOXX |
-| high_beta | 2.26 | IWM, ARKK, HIBL |
-| rates | 0.47 | TLT, TBF, TBT |
-| dollar | 0.17 | UUP |
-| equity_hedges | -0.89 | SH, PSQ, SQQQ |
-| housing_rates | -3.02 | XHB, ITB |
-| defensives | -1.32 | XLP, XLU |
+| energy | -6.40 | XLE, XOP, USO |
+| semis_ai | -2.94 | SMH, SOXX |
+| high_beta | -0.34 | IWM, ARKK, HIBL |
+| rates | -0.49 | TLT, TBF, TBT |
+| dollar | -0.38 | UUP |
+| equity_hedges | -1.76 | SH, PSQ, SQQQ |
+| housing_rates | 6.34 | XHB, ITB |
+| defensives | 1.90 | XLP, XLU |
 
 
 ## Top Adjacent Daily Winners
 
 | Ticker | Group | 1D % | 21D % | vs SMA50 % | Regime |
 | --- | --- | --- | --- | --- | --- |
-| HIBL | high_beta | 4.83 | -34.42 | -22.28 | BELOW_50_AND_200 |
-| SOXX | semis_ai | 2.50 | -21.12 | -11.76 | BELOW_50_AND_200 |
-| SMH | semis_ai | 2.01 | -18.20 | -9.19 | BELOW_50_AND_200 |
-| ARKK | high_beta | 1.72 | -13.43 | -6.68 | BELOW_50_ABOVE_200 |
-| TBT | rates | 1.39 | -10.01 | -2.78 | BELOW_50_ABOVE_200 |
-| USO | energy | 0.83 | 9.85 | 4.71 | ABOVE_50_AND_200 |
-| TBF | rates | 0.79 | -5.11 | -1.26 | BELOW_50_ABOVE_200 |
-| IWM | high_beta | 0.23 | -1.27 | -1.31 | BELOW_50_ABOVE_200 |
+| ITB | housing_rates | 7.25 | 15.35 | 11.90 | ABOVE_50_AND_200 |
+| XHB | housing_rates | 5.43 | 10.42 | 9.15 | ABOVE_50_AND_200 |
+| XLP | defensives | 3.36 | 12.40 | 8.37 | ABOVE_50_AND_200 |
+| IWM | high_beta | 1.51 | 0.95 | 0.29 | ABOVE_50_AND_200 |
+| TLT | rates | 0.80 | 5.80 | 1.65 | MIXED |
+| XLU | defensives | 0.44 | 5.95 | 4.38 | MIXED |
+| ARKK | high_beta | 0.06 | -11.18 | -6.50 | BELOW_50_ABOVE_200 |
+| UUP | dollar | -0.38 | 0.00 | 0.88 | ABOVE_50_AND_200 |
 
 
 ## Top Adjacent Daily Losers
 
 | Ticker | Group | 1D % | 21D % | vs SMA50 % | Regime |
 | --- | --- | --- | --- | --- | --- |
-| ITB | housing_rates | -3.56 | 9.28 | 4.39 | MIXED |
-| XHB | housing_rates | -2.49 | 5.90 | 3.55 | MIXED |
-| XLP | defensives | -2.07 | 9.76 | 4.98 | ABOVE_50_AND_200 |
-| SQQQ | equity_hedges | -1.84 | 32.56 | 15.28 | MIXED |
-| XOP | energy | -1.05 | 2.18 | -0.18 | BELOW_50_ABOVE_200 |
-| XLE | energy | -0.85 | 5.09 | 2.47 | ABOVE_50_AND_200 |
-| TLT | rates | -0.76 | 5.19 | 0.80 | MIXED |
-| XLU | defensives | -0.57 | 8.63 | 3.94 | MIXED |
+| USO | energy | -8.07 | 0.34 | -3.98 | BELOW_50_ABOVE_200 |
+| XOP | energy | -6.39 | -4.87 | -6.53 | BELOW_50_ABOVE_200 |
+| XLE | energy | -4.74 | -0.36 | -2.43 | BELOW_50_ABOVE_200 |
+| SOXX | semis_ai | -3.14 | 129.24 | 132.79 | ABOVE_50_AND_200 |
+| SQQQ | equity_hedges | -2.78 | 30.57 | 11.94 | MIXED |
+| SMH | semis_ai | -2.75 | -20.27 | -11.53 | BELOW_50_AND_200 |
+| HIBL | high_beta | -2.58 | -37.50 | -23.84 | BELOW_50_AND_200 |
+| SH | equity_hedges | -1.61 | 2.11 | 0.16 | MIXED |
 
 
 ## Downstream Manager Prompt
